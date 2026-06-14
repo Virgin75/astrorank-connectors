@@ -1,0 +1,12 @@
+{
+  "type": "remote",
+  "enabled": true,
+  "timeout": 5000,
+  "url": "https://mcp.astrorank.io/cms-wordpress",
+  "isCms": true,
+  "oauth": {
+    "clientId": "{env:WORDPRESS_CLIENT_ID}",
+    "clientSecret": "{env:WORDPRESS_CLIENT_SECRET}",
+    "scope": "read"
+  }
+}
